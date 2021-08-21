@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ralphestor/Project-A#readme",
   "dependencies": {
+    "ejs-mate": "^3.0.0",
     "express": "^4.17.1",
     "mongoose": "^5.13.7",
     "nodemon": "^2.0.12"
