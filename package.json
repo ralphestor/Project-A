@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/ralphestor/Project-A/issues"
   },
-  "homepage": "https://github.com/ralphestor/Project-A#readme"
+  "homepage": "https://github.com/ralphestor/Project-A#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7",
+    "nodemon": "^2.0.12"
+  }
 }
