@@ -1,11 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-main {
-    height: 100vh;
-    width: 100vw;
-    background: red;
+.navbar-custom {
+    background-color: #001448;
+    width: 100%;
+    font-family: 'Raleway', serif;
+    font-size: 0.8rem;
 }
 
-h1 {
-    color: green;
+.navbar .navbar-brand {
+    background-color: #001448;
 }
+
+.navbar .navbar-brand:hover {
+    background-color: #001448;
+}
+
+.navbar-collapse {
+    width: 100%;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+}
+
+.nav-link:hover {
+    color: #FDD547 !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-brand img {
+    height: 30px;
+    margin-left: 20px;
+}
+
+.btn-custom{
+    color: #000000;
+    background-color: #FDD547;
+    border-radius: 0;
+    border-color: #FDD547;
+    font-size: 0.8rem;
+}
+
+.signup-btn {
+    width: 100px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.login-btn {
+    margin-left: 20px;
+    width: 70px;
+}
+
+.navbar-toggler {
+    margin-right: 20px;
+    z-index: 100;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(145, 183, 253)
+}
+
+/* MAIN */
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/homeBG.png");
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+
+
+
+
