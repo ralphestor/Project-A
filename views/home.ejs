@@ -1,50 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Review Society</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-custom">
-    <a class="navbar-brand" href="#">
-        <img src="./images/Company2.png">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto justify-content-end">
-        <li class="nav-item active mx-4">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item dropdown mx-4">
-          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Programs
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Accountancy</a>
-            <a class="dropdown-item" href="#">Engineering</a>
-            <a class="dropdown-item" href="#">LET</a>
-            <a class="dropdown-item" href="#">Medical</a>
-          </div>
-        </li>
-        <li class="nav-item mx-4">
-          <a class="nav-link" href="#">About</a>
-        </li>
-      </ul>
-      <button class="btn btn-outline-warning my-2 my-sm-0 float-right btn-custom login-btn" type="submit">Login</button>
-      <button class="btn btn-outline-warning my-2 my-sm-0 float-right btn-custom signup-btn" type="submit">Sign Up</button>
-      <button class="btn btn-outline-warning my-2 my-sm-0 float-right btn-custom ma-btn" type="submit">My Account</button>
-    </div>
-  </nav>
+<%- include('./partials/htmltop') %>
+  <link rel="stylesheet" href="./css/home.css">
+<%- include('./partials/navbar') %>
       
   <main class="container-fluid">
     <div class="mainSpace"></div>
@@ -54,6 +10,9 @@
       <button class="mainBtn btn btn-outline-success">See All Programs</button>
     </div>
   </main>
+  <section calss="container">
+    
+  </section>
 
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
