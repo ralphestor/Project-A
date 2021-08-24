@@ -1,78 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 .navbar-custom {
-    background-color: #001448;
-    width: 100%;
-    font-family: 'Raleway', serif;
-    font-size: 0.8rem;
+  background-color: #001448;
+  width: 100%;
+  font-family: 'Raleway', serif;
+  font-size: 0.8rem;
 }
 
 .navbar .navbar-brand {
-    background-color: #001448;
+  background-color: #001448;
 }
 
 .navbar .navbar-brand:hover {
-    background-color: #001448;
+  background-color: #001448;
 }
 
 .navbar-collapse {
-    width: 100%;
+  width: 100%;
 }
 
 .navbar-nav {
-    width: 100%;
+  width: 100%;
 }
 
 .nav-link {
-    color: #FFFFFF !important;
+  color: #FFFFFF !important;
 }
 
 .nav-link:hover {
-    color: #FDD547 !important;
-    transition: color 0.3s ease-in-out;
+  color: #FDD547 !important;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 
 .navbar-brand img {
-    height: 30px;
-    margin-left: 20px;
+  height: 30px;
+  margin-left: 20px;
 }
 
-.btn-custom{
-    color: #000000;
-    background-color: #FDD547;
-    border-radius: 0;
-    border-color: #FDD547;
-    font-size: 0.8rem;
+.btn-custom {
+  color: #000000;
+  background-color: #FDD547;
+  border-radius: 0;
+  border-color: #FDD547;
+  font-size: 0.8rem;
 }
 
 .signup-btn {
-    width: 100px;
-    margin-right: 20px;
-    margin-left: 10px;
+  width: 100px;
+  margin-right: 20px;
+  margin-left: 10px;
 }
 
 .login-btn {
-    margin-left: 20px;
-    margin-right: 10px;
-    width: 70px;
+  margin-left: 20px;
+  margin-right: 10px;
+  width: 70px;
 }
 
 .ma-btn {
-    border-radius: 50%;
-    display: none;
+  border-radius: 50%;
+  display: none;
 }
 
 .navbar-toggler {
-    margin-right: 20px;
-    z-index: 100;
+  margin-right: 20px;
+  z-index: 100;
 }
 
 .dropdown-item {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 .dropdown-item:hover {
-    background-color: rgb(145, 183, 253)
+  background-color: #91b7fd;
 }
 
 /* MAIN */
+/*# sourceMappingURL=nav.css.map */
