@@ -1,3 +1,36 @@
+@import './variables';
+
+@mixin lgdevice {
+    @media (min-width: $lgdevice) {
+        @content;
+    }
+}
+
+@mixin smdesktop {
+    @media (min-width: $smdesktop) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: $tablet){
+        @content;
+    }
+}
+
+@mixin lgphone {
+    @media (min-width: $lgphone){
+        @content;
+    }
+}
+
+@mixin smphone {
+    @media (min-width: $smphone){
+        @content;
+    }
+}
+
+
 main {
     width: 100%;
     height: 100vh;
@@ -11,17 +44,37 @@ main {
 .main {
     display: flex;
     align-items: center;
-    #{&}__space {
-        width: 100%;
-        height: 200px;
-    }
-    
 }
 
 
 .mainBox {
-    width: 550px;
-    margin-left: 630px;
+
+    @include smphone {
+        width: 500px;
+        margin-left: 10%;
+    }
+
+    @include lgphone {
+        width: 200px;
+        margin-left: 20%;
+    }
+
+    @include tablet {
+        width: 300px;
+        margin-left: 30%;
+    }
+
+    @include smdesktop {
+        width: 400px;
+        margin-left: 40%;
+    }
+
+    @include lgdevice {
+        width: 500px;
+        margin-left: 50%;    
+    }
+
+
 
     #{&}__h1 {
         width: 450px;
