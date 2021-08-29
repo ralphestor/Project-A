@@ -30,6 +30,12 @@
     }
 }
 
+@mixin xsphone {
+    @media (max-width: $smphone){
+        @content;
+    }
+}
+
 
 main {
     width: 100%;
@@ -48,30 +54,28 @@ main {
 
 
 .mainBox {
+    @include xsphone {
+        
+    }
 
     @include smphone {
-        width: 500px;
-        margin-left: 10%;
+
     }
 
     @include lgphone {
-        width: 200px;
-        margin-left: 20%;
+
     }
 
     @include tablet {
-        width: 300px;
-        margin-left: 30%;
+
     }
 
     @include smdesktop {
-        width: 400px;
-        margin-left: 40%;
+
     }
 
     @include lgdevice {
-        width: 500px;
-        margin-left: 50%;    
+  
     }
 
 
